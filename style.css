@@ -86,9 +86,10 @@ body {
 
 /* Paragraph Text */
 .content p {
-  text-align: justify;
   line-height: 1.6;
   margin-bottom: 10px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* Footer */
@@ -142,6 +143,9 @@ body {
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
+  text-align: justify;
+  text-justify: inter-word;
+ 
 }
 
 /* Quality Objectives Box */
@@ -162,6 +166,8 @@ body {
 .quality-box ol {
   columns: 2;
   font-size: 14px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .video-gallery{
